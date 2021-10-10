@@ -1,0 +1,21 @@
+body
+{
+  background-color: white;
+  background-position: center;
+  color: #055052;
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+html{
+  display: table;
+  margin: auto;
+}
+html, body {
+  height: 100%;
+}

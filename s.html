@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <input type="checkbox" id="checkme"/>
+    <input type="submit" name="sendNewSms" class="inputButton" disabled="disabled" id="sendNewSms" value=" Send " />
+    </form>
+    <script type="text/javascript">
+      var checker = document.getElementById('checkme');
+    var sendbtn = document.getElementById('sendNewSms');
+    // when unchecked or checked, run the function
+    checker.onchange = function(){
+    if(this.checked){
+    sendbtn.disabled = false;
+    } else {
+    sendbtn.disabled = true;
+    }
+
+    }
+    </script>
+  </body>
+</html>

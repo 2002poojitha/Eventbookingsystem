@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+
+               <link rel="stylesheet" href="style.css">
+<style>
+td {
+                width:150px;
+                text-align:center;
+                border:1px solid black;
+                padding:5px;
+                font-size: 18px;
+
+            }
+.g {
+                border: hidden;
+            }
+
+            .btn {
+              background: #53B8BB;
+              background-image: -webkit-linear-gradient(top, #53B8BB, #3093d1);
+              background-image: -moz-linear-gradient(top, #53B8BB, #3093d1);
+              background-image: -ms-linear-gradient(top, #53B8BB, #3093d1);
+              background-image: -o-linear-gradient(top, #53B8BB, #3093d1);
+              background-image: linear-gradient(to bottom, #53B8BB, #3093d1);
+              -webkit-border-radius: 20;
+              -moz-border-radius: 20;
+              border-radius: 20px;
+              text-shadow: 0px 1px 0px #949294;
+              -webkit-box-shadow: 4px 4px 3px #666666;
+              -moz-box-shadow: 4px 4px 3px #666666;
+              box-shadow: 4px 4px 3px #666666;
+              font-family: Georgia;
+              color: #000000;
+              font-size: 26px;
+              padding: 10px 20px 10px 20px;
+              border: solid #2e89c2 0px;
+              text-decoration: none;
+              width: 250px;
+            }
+
+            .btn:hover {
+              background: #44abeb;
+              background-image: -webkit-linear-gradient(top, #44abeb, #3498db);
+              background-image: -moz-linear-gradient(top, #44abeb, #3498db);
+              background-image: -ms-linear-gradient(top, #44abeb, #3498db);
+              background-image: -o-linear-gradient(top, #44abeb, #3498db);
+              background-image: linear-gradient(to bottom, #44abeb, #3498db);
+              text-decoration: none;
+            }
+            button {
+              border: 0px;
+              background: transparent;
+              font-size: 20px;
+
+            }
+            .topnav {
+              overflow: hidden;
+              background-color: #333;
+            }
+
+            .topnav a {
+              float: left;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+
+            .topnav a.active {
+              background-color: #055052;
+              color: white;
+            }
+</style>
+</head>
+<body>
+  <center>
+    <div class="topnav">
+    <a href="event.html">Book an Event</a>
+    <a class="active" href="payments1.html">Make payments</a>
+    <a href="seelogistic.jsp">See logistic</a>
+    </div>
+<br><br>
+<h2><strong>Pay using Credit or Debit card</strong></h2>
+<table>
+<div >
+<tr>
+<td class="g"><label>Card Number</label></td>
+<td class="g"><input type="text"
+placeholder="###-###-###"/></td>
+</tr>
+</div>
+</br>
+<div >
+<tr>
+<td  class="g"><label>Expiry Date</label></td>
+<td class="g"><input type="text"
+placeholder="MM-YY" /></td>
+</tr>
+</div>
+</br>
+<div>
+<tr>
+<td  class="g"><label> CVV number </label></td>
+<td class="g"><input type="text"
+placeholder="xxx" /></td>
+</tr>
+</div>
+</br>
+<div>
+<tr>
+<td  class="g"><label> Card Holder name </label></td>
+<td class="g"><input type="text"
+placeholder="Enter your Name"/></td>
+</tr>
+</div>
+</table>
+</div>
+</br>
+
+<form method="POST" action="payments.html">
+<button  class="btn" type="submit" class="button">PAY
+</button>
+</form>
+
+  </center>
+</body>
+</html>
